@@ -1,0 +1,24 @@
+package Methods;
+
+public class MathClass {
+
+	int a, b;
+
+	void calculus(int a, int b) {
+		if (a > b) {
+			System.out.println(a + "is the largest number");
+			if (b > a) {
+				System.out.println(b + "is the largest number");
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		
+		MathClass addition = new MathClass ();
+		
+		addition.calculus(5, 6);
+		
+
+}}

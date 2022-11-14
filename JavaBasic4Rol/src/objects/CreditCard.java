@@ -1,0 +1,18 @@
+package objects;
+
+public class CreditCard {
+
+//	▪ Create a class CreditCard and define two variables, balance and interest.
+//    ▪ Create an instance method that will calculate the interest based on the given balance.
+//    ▪ Create 2 subclasses: Visa and AX. In AX class override the method calculate interest.
+//    ▪ Call the method by creating an object of each of the three classes.
+
+	int balance;
+	int interests;
+
+	double interests(double rate, int balance) {
+		return rate * balance;
+
+	}
+
+}

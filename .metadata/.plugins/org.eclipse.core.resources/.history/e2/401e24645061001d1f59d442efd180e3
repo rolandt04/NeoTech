@@ -1,0 +1,14 @@
+package objects;
+
+public class MasterCard extends CreditCard {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		MasterCard objt = (MasterCard) new CreditCard();
+
+		objt.interests(0.1, 5);
+
+	}
+
+}

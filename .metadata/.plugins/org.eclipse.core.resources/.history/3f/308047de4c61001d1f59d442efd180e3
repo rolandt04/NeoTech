@@ -1,0 +1,15 @@
+package objects;
+
+public class VisaCard extends CreditCard {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		CreditCard calculate = new CreditCard();
+
+		calculate.interests(0.3, 5000);
+		System.out.println(" Your balance at Visa is " + calculate.interests(0.3, 5000));
+
+	}
+
+}

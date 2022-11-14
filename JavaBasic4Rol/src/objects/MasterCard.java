@@ -1,0 +1,15 @@
+package objects;
+
+public class MasterCard extends CreditCard {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		CreditCard objt = new MasterCard();
+
+		objt.interests(0.1, 5);
+		System.out.println("Your name is " + objt.interests(0.1, 5));
+
+	}
+
+}
